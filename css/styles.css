@@ -1,0 +1,227 @@
+:root {
+    --primary-fond:'Roboto', sans-serif;
+    --accent-color:#2E2F42;
+}
+
+body {
+    font-family: var(--primary-fond);
+}
+
+*{
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    color: #2E2F42;
+}
+    
+
+.link:hover,
+.link:focus{
+    color: #404BBF;
+}
+
+/* .modal-btn-b {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+} */
+
+/* ----------------------Шапка */
+
+.web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-top {
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.modal-btn-a:hover:hover,
+.modal-btn-a:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.modal-btn-a {
+    font-family:var(--primary-fond);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+.menu-link .menu-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.contact-info-link {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* h1 {
+    background: #2E2F42;
+    color: #FFFFFF;
+} */
+
+/* h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+} */
+
+/* ---------------------Банер */
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    /* background-color: #2E2F42; */
+}
+
+.hero {
+    background: #2E2F42;
+}
+
+/* .modal-btn {
+    cursor: pointer;
+} */
+
+/* ---------------Бизнес решение без заголовка */
+
+.title-paragraphs {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+
+.text-paragraphs {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+}
+
+/* --------------------Фото Команды */
+
+.name-of-pictures {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-color)
+
+}
+
+.pictures-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+/* -----------------------Подвал */
+
+.text-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    background: #2E2F42;
+}
+
+.top-footer {
+    background: #2E2F42;
+}
+
+.logo-footer {
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+    cursor: pointer;
+}
+
+
+/* -------------------Наши услуги кнопки */
+
+.modal-btn-b {
+    font-family:var(--primary-fond);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+
+.modal-btn-b:hover,
+.modal-btn-b:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+
+/* ------------------Наши услуги */
