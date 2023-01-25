@@ -7,9 +7,31 @@ body {
     font-family: var(--primary-fond);
 }
 
-*{
-    margin: 0;
+h1,h2,h3,h4,p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+ button{
+    cursor: pointer;
+ }
+
+ .container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
 
 .list {
     list-style: none;
@@ -41,6 +63,26 @@ body {
 
 /* ----------------------Шапка */
 
+.top-header-container{
+    display: flex;
+    align-items: center;
+}
+
+.div-container{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
 .web {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -60,6 +102,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    margin: 76px;
+}
+
+.menu-item:not(:first-child){
+    margin-right: 40px;
 }
 
 .modal-btn-a:hover:hover,
@@ -78,7 +125,6 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     background: #4D5AE5;
-    cursor: pointer;
 }
 
 .menu-link .menu-item{
@@ -89,14 +135,20 @@ body {
     color: #2E2F42;
 }
 
+.contact{
+    display: flex;
+    align-items: center;
+}
+
 .contact-info-link {
-    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 /* h1 {
@@ -214,7 +266,6 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
-    cursor: pointer;
 }
 
 .modal-btn-b:hover,

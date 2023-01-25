@@ -8,46 +8,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap'); </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
                                                     <!--Шапка  -->
     <header class="top-header">
-        <nav class="navigation">
+        <div class="container div-container">
+          <nav class="navigation">
 
-            <a class="logo-top" href="./index.html"><span class="web">Web</span>Studio</a>
-            
-            <ul class="menu list">
+                <a class="logo-top" href="./index.html"><span class="web">Web</span>Studio</a>
+                
+                <ul class="menu list">
 
-               <li class="menu-item">
-                 <a class="link menu-link" href="./index.html">Studio</a>
-               </li>
+                <li class="menu-item">
+                    <a class="link menu-link" href="./index.html">Studio</a>
+                </li>
 
-               <li class="menu-item">
-                 <a class="link menu-link" href="./portfolio.html">Portfolio</a>
-               </li>
+                <li class="menu-item">
+                    <a class="link menu-link" href="./portfolio.html">Portfolio</a>
+                </li>
 
-               <li class="menu-item">
-                 <a class="link menu-link" href="">Contacts</a>
-               </li>
+                <li class="menu-item">
+                    <a class="link menu-link" href="">Contacts</a>
+                </li>
 
-            </ul>
-        </nav>
+                </ul>
+          </nav>
        
-        <address>
+            <address>
 
-            <ul class="contact list">
-                <li class="contact-item">
-                    <a class="contact-info-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
+                <ul class="contact list">
+                    <li class="contact-item">
+                        <a class="contact-info-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
 
-                <li class="contact-item">
-                    <a class="contact-info-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
+                    <li class="contact-item">
+                        <a class="contact-info-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
 
-        </address>
+            </address>
+        </div>
 
     </header>
 
@@ -56,16 +59,19 @@
                                                   <!-- Банер -->
 
         <section class="hero">
+            <div class="container">
             
-            <h1 class="main-title">Effective Solutions for Your Business</h1>
+             <h1 class="main-title">Effective Solutions for Your Business</h1>
             
-            <button class="modal-btn-a" type="button">Order Service</button>
+             <button class="modal-btn-a" type="button">Order Service</button>
+            
+            </div>
         
         </section>
 
                                                     <!-- Бизнес решение без заголовка -->
 
-     <section class="business-solution">
+     <section class="business-solution container">
 
         <H2 class="titles">Skills</H2>
         
@@ -97,7 +103,7 @@
 
 <!-- Фото работ -->
 
-     <section class="photo-works">
+     <section class="photo-works container">
 
         <h2 class="titles">What are we doing</h2>
         
@@ -120,7 +126,7 @@
 
 <!-- Фото команды -->
 
-     <section class="imag">
+     <section class="imag container">
 
         <h2 class="titles">Our Team</h2>
         <ul class="list">
