@@ -25,6 +25,11 @@ img{
     cursor: pointer;
  }
 
+ .section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
+
  .container{
     width: 1158px;
     margin-left: auto;
@@ -63,9 +68,11 @@ img{
 
 /* ----------------------Шапка */
 
-.top-header-container{
+.top-header{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .div-container{
@@ -116,6 +123,10 @@ img{
 }
 
 .modal-btn-a {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
     font-family:var(--primary-fond);
     font-weight: 500;
     font-size: 16px;
@@ -178,6 +189,8 @@ img{
 
 .hero {
     background: #2E2F42;
+    width: 1440px;
+    height: 600px;
 }
 
 /* .modal-btn {
@@ -186,6 +199,10 @@ img{
 
 /* ---------------Бизнес решение без заголовка */
 
+.business-solution{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .title-paragraphs {
     font-weight: 500;
     font-size: 20px;
