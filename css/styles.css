@@ -182,6 +182,7 @@ img{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     /* background-color: #2E2F42; */
@@ -191,6 +192,7 @@ img{
     background: #2E2F42;
     width: 1440px;
     height: 600px;
+    text-align: center;
 }
 
 /* .modal-btn {
@@ -200,10 +202,16 @@ img{
 /* ---------------Бизнес решение без заголовка */
 
 .business-solution{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
 }
+
+.list-titles{
+    display: flex;
+    column-gap: 24px;
+}
+
 .title-paragraphs {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -219,19 +227,40 @@ img{
 }
 
 .titles {
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-color)
 }
 
+/* -----------------Фото работ */
+
+.list-img{
+    display: flex;
+    column-gap: 24px;
+}
+
 /* --------------------Фото Команды */
 
+.titles-image {
+    /* border: 1px solid #ccc;
+    border: none; */
+}
+
+.titles-image-name {
+    /* border: 1px solid #ccc; */
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .name-of-pictures {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-color)
 
@@ -240,6 +269,7 @@ img{
 .pictures-description {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 
@@ -273,6 +303,13 @@ img{
 
 
 /* -------------------Наши услуги кнопки */
+
+.list-container{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
 
 .modal-btn-b {
     font-family:var(--primary-fond);
