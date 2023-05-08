@@ -32,7 +32,7 @@ img{
 
  .container{
     width: 1158px;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -71,8 +71,15 @@ img{
 .top-header{
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .div-container{
@@ -110,9 +117,15 @@ img{
     text-transform: uppercase;
     color: #2E2F42;
     margin: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .menu-item:not(:first-child){
+    margin-right: 40px;
+}
+
+.menu-link-studio {
     margin-right: 40px;
 }
 
@@ -131,9 +144,26 @@ img{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    /* letter-spacing: 0.04em; */
     color: #ffffff;
     background: #4D5AE5;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    /* letter-spacing: 0.04em; */
+    color: #FFFFFF;
 }
 
 .menu-link .menu-item{
@@ -141,6 +171,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 40px;
     color: #2E2F42;
 }
 
@@ -158,6 +189,19 @@ img{
     color: #434455;
     margin-left: auto;
     margin-right: 40px;
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+}
+
+.contact-info-phone {
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
 }
 
 /* h1 {
@@ -177,10 +221,20 @@ img{
 /* ---------------------Банер */
 
 .main-title-cont{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
 
 }
 
 .main-title {
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;     
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
@@ -191,6 +245,11 @@ img{
 }
 
 .hero {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
     background: #2E2F42;
     width: 1440px;
     height: 600px;
